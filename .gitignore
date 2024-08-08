@@ -1,0 +1,13 @@
+# VS Code
+*vscode*
+
+# Build
+*.exe
+*.obj
+*.exp
+*.lib
+*.bin
+
+# Debug
+*.pdb
+*.ilk
