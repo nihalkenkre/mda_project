@@ -6,9 +6,9 @@ To get a snapshot of `lsass.exe` through 'middle man' application, in this case 
 ### Detour
 There is a change in the implementation of the modules from the course project. 
 
-The course project uses a COFF parser/loader to load and execute a Windows `.obj`  file, which is contained in an Windows COFF file.
+The course project uses a COFF parser/loader to load and execute a Windows `.obj`  file, which is contained in a Windows COFF file.
 
-This project uses a [sexe](https://medium.com/@nihal.kenkre/sexe-small-exe-e2f8b9acc805) executable, which replicates the functionality of the COFF module.
+This project uses a [sexe](https://medium.com/@nihal.kenkre/sexe-small-exe-e2f8b9acc805) executable, which replicates the functionality of the COFF module, through a simpler, smaller footprint.
 
 ## Modules
 ### Loader
